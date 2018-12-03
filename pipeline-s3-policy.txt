@@ -1,0 +1,9 @@
+{
+   "Sid": "CodeBuildPermission",
+   "Effect": "Allow",
+   "Principal": {
+     "AWS": "<YOUR Service Role ARN>"
+   },
+   "Action": "s3:*",
+   "Resource": "arn:aws:s3:::<YOUR bucket name>"
+ }
