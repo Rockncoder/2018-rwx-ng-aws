@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    S3_BUCKET: "ng-delme.tekadept.com"
+    S3_BUCKET: "ng-aws-build-test1"
     APP_NAME: "ng-aws"
     BUILD_ENV : "prod"
 
